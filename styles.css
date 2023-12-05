@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
 
 
 *{
@@ -10,10 +12,12 @@
     --primary-color: rgba(255, 255, 0, 0.9);
 
     --hero-font: 'Ephesis', cursive;
-    --header: ;
+    --header: 'Rubik Bubbles', impact;
     --text-font: monospace;
 }
-
+p{
+    font-family: var(--text-font);
+}
 
 section.hero, section.about{
     height: 100vh;
@@ -75,4 +79,62 @@ section.hero, section.about{
 }
 
 
+
+
+
+section.about{
+    padding: 3% 7%; 
+
+}
+
+.about header{
+    font-family: var(--header);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.about .about_container{
+    display: grid;
+    grid-template-columns: 35% auto;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.about_container .grid_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    line-height: 2rem;
+}
+
+.aboutme{
+    display: grid;
+    grid-template-columns: 10% auto;
+    line-height: 2.5rem;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1rem;
+    line-height: 5rem;
+    margin-left: -2rem;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links .link a{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-family: var(--text-font);
+    width: 70%;
+    margin: 30px;
+    border-radius: 3px;
+    border: solid;
+}
 
