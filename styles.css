@@ -19,10 +19,16 @@ p{
     font-family: var(--text-font);
 }
 
-section.hero, section.about{
+
+section.hero, section.about, section.skills{
     height: 100vh;
     position: relative;
 }
+
+
+
+
+
 
 .hero_bg_image{
     height: 100vh;
@@ -79,12 +85,16 @@ section.hero, section.about{
 }
 
 
+
+
+
+
 section.about{
     padding: 3% 7%; 
 
 }
 
-.about header{
+header{
     font-family: var(--header);
     font-size: 4rem;
     text-align: center;
@@ -134,6 +144,34 @@ section.about{
     border-radius: 3px;
     border: solid;
 }
+
+
+
+
+section.skills{
+    padding: 3% 7%; 
+
+}
+
+.skills_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+}
+
+.skills .skill{
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    gap: 1rem;
+    height: 200px;
+}
+
+.skill_title{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
 
 
 
