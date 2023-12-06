@@ -155,7 +155,7 @@ section.skills{
 
 .skills_container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     place-items: center;
 }
 
@@ -205,6 +205,12 @@ section.skills{
     .aboutme{
         text-align: justify;
         line-height: 1.3rem;
+    }
+
+    .skills .skill{
+        display: flex;
+        justify-self: center;
+        height: 100px;
     }
 
 }
