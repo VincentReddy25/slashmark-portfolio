@@ -85,10 +85,6 @@ section.hero, section.about, section.skills{
 }
 
 
-
-
-
-
 section.about{
     padding: 3% 7%; 
 
@@ -207,6 +203,9 @@ section.skills{
         line-height: 1.3rem;
     }
 
+    .aboutme, .skills {
+        margin: 2em 0;
+    }
     .skills .skill{
         display: flex;
         justify-self: center;

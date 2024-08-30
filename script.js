@@ -12,21 +12,25 @@ const skills = [
         skill_percentage: 70,
     },
     {
-        skill_title: 'scss',
+        skill_title: 'Tailwind',
         skill_percentage: 60,
-    },
-    {
-        skill_title: 'figma',
-        skill_percentage: 70,
     },
     {
         skill_title: 'react',
         skill_percentage: 70,
     },
     {
-        skill_title: 'angular',
-        skill_percentage: 50,
+        skill_title: 'sql',
+        skill_percentage: 70,
     },
+    {
+        skill_title: 'java',
+        skill_percentage: 70
+    },
+    {
+        skill_title: 'git and Github',
+        skill_percentage: 70
+    }
 
 ]
 
@@ -34,7 +38,6 @@ function createSkill(skill) {
     return `
         <div class="skill">
             <p class="skill_title">${skill.skill_title}</p>
-            <p class="skill_percentage">${skill.skill_percentage}%</p>
         </div>
     `;
 }
